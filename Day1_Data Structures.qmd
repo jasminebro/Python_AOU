@@ -108,6 +108,17 @@ ListA
     ["five","love","biology"] + ["LSU", "BCM", "LA"]
     ```
 
+-   You can append multiple elements by using extend
+
+    ```{python}
+
+    y = [6,"house", "car"]
+
+    y.extend([9,0,(32,3)])
+
+    y
+    ```
+
 ##### Sorting
 
 ```{python}
