@@ -149,6 +149,36 @@ sequence[0:2]
 
 -   Typically {} and : are used to create Python dictionaries.
 
+    ```{python}
+
+    Dict1 = {"car":"beetle","model":"volkswagen", "year": "2010"}
+
+    Dict1
+
+    Dict1["model"] #Pull model
+    "model" in Dict1 #Check to see if model is in the dictionary 
+
+    ```
+
+-   You can delete values using del or pop.
+
+    ```{python}
+
+    Dict1["state"] = "Louisiana"
+
+    Dict1
+
+    Dict1["home"] = "Space"
+
+    Dict1
+
+    del Dict1["state"]
+
+    Dict1.pop("home")
+
+    Dict1
+    ```
+
 ## Functions
 
 ## Files
