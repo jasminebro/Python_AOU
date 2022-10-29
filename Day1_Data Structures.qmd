@@ -206,3 +206,35 @@ list(Dict1.items())
 
     {4,2,3,1}
     ```
+
+To combine two sets you can use .union or \|
+
+```{python}
+
+d = {4,5,6,8}
+e = {9,0,3}
+
+d.union(e)
+
+d|e
+```
+
+[Commonly use set methods reference:]{.underline}
+
+[https://www.geeksforgeeks.org/python-Commonly used set methods-methods/](https://www.geeksforgeeks.org/python-set-methods/ "Commonly used set methods")
+
+#### Built-In Sequence Functions 
+
+-   useful functions that can and should be used when you get a chance
+
+#### enumerate
+
+#### sorted 
+
+#### zip
+
+#### reversed 
+
+#### List, Set and Dictionary Comprehensions 
+
+#### Nested List Comprehensions 
