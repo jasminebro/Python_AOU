@@ -23,16 +23,84 @@ library(reticulate)
 
 -   Easily created by having comma separated values enclosed in parenthesis
 
-{python} TupleExample = (7,8,9) #create sequence of numbers TupleExample
+    ```{python}
 
-Lists
+     TupleExample = (7,8,9) #create sequence of numbers TupleExample
+     
+     TupleExample
 
-Variable length and contents can be modified and are mutable
+    ```
 
-Created by using \[\] or just the list function
+### Lists
 
-{python}
+-   Variable length and contents can be modified and are mutable
 
-Functions
+-   Created by using \[\] or just the list function
 
-Files
+```{python}
+
+ListA = [2,2,5]
+ListA
+
+Tup = (5,0,4)
+Tup
+
+ListB = list(Tup)
+ListB
+
+
+```
+
+#### Adding and Removing 
+
+##### **Append**
+
+```{python}
+
+ListA.append("Mia")
+ListA
+```
+
+##### **Insert**
+
+-   You can insert at a certain location
+
+-   Note: In python, counting/indexing begins at 0. So, "crawfish" will insert as the second element in our list.
+
+```{python}
+
+ListA.insert(1,"crawfish")
+ListA
+
+```
+
+##### Pop
+
+-   Removes and returns at a certain location
+
+```{python}
+
+ListA.pop(2)
+
+ListA
+
+
+
+```
+
+##### Remove
+
+-   removes first instance
+
+```{python}
+
+ListA.remove("crawfish")
+ListA
+
+```
+
+##### Combining list
+
+## Functions
+
+## Files
