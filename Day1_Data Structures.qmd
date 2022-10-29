@@ -233,7 +233,8 @@ d|e
 
     ```{python}
 
-
+    for index,value in enumerate(d):
+      print(f'{index}:{value}')
     ```
 
 #### sorted 
