@@ -179,6 +179,17 @@ sequence[0:2]
     Dict1
     ```
 
-## Functions
+-   You can get the keys and values individually, iterate and merge dictionaries
 
-## Files
+```{python}
+
+list(Dict1.keys())
+list(Dict1.values())
+
+#you can iterate over the values and keys by turning your dictionary into individual tuples 
+
+list(Dict1.items())
+
+
+
+```
