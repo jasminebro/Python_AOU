@@ -229,6 +229,13 @@ d|e
 
 #### enumerate
 
+-   When iterating and you want to keep track of an index/count you can use enumerate
+
+    ```{python}
+
+
+    ```
+
 #### sorted 
 
 #### zip
