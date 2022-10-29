@@ -1,11 +1,11 @@
 ---
-title: "Day 1"
+title: "Data Structures"
 format: ipynb
 editor: visual
 jupyter: python3
 ---
 
-# Day1
+# Day1: Data Structures
 
 ```{r setup}
 
@@ -142,6 +142,12 @@ sequence = ["cccccc", "ttttt", "aaaaa", "ccccc"]
 sequence[0:2]
 
 ```
+
+#### Dictionary/ dict
+
+-   Stores key-value pairs. The key and value are both python objects.
+
+-   Typically {} and : are used to create Python dictionaries.
 
 ## Functions
 
