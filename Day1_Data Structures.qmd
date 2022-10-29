@@ -121,12 +121,26 @@ ListA
 
 ##### Sorting
 
+-   Sort items by value
+
 ```{python}
 
 a = [5,3,1,90,56]
 a
 a.sort ()
 a
+```
+
+##### Slicing
+
+-   Extract a range of values with the basic form of start:stop and using the indexing operator \[\]
+
+```{python}
+
+sequence = ["cccccc", "ttttt", "aaaaa", "ccccc"]
+
+sequence[0:2]
+
 ```
 
 ## Functions
