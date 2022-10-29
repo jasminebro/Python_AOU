@@ -239,6 +239,13 @@ d|e
 
 #### sorted 
 
+-   returns a new sorted list from input sequence
+
+    ```{python}
+
+
+    ```
+
 #### zip
 
 #### reversed 
