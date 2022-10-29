@@ -1,6 +1,6 @@
 ---
 title: "Day 1"
-format: html
+format: ipynb
 editor: visual
 jupyter: python3
 ---
