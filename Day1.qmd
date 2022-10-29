@@ -99,7 +99,14 @@ ListA
 
 ```
 
-##### Combining list
+##### Combining/ Concatenating 
+
+-   Using the + sign will concatenate a list or tuple
+
+    ```{python}
+
+    ["five","love","biology"] + ["LSU", "BCM", "LA"]
+    ```
 
 ## Functions
 
