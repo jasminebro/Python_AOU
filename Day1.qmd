@@ -1,0 +1,38 @@
+---
+title: "Day 1"
+format: html
+editor: visual
+jupyter: python3
+---
+
+# Day1
+
+```{r setup}
+
+#| echo: false
+
+library(reticulate)
+
+```
+
+## Data Structures
+
+### Tuples
+
+-   Fixed length immutable objects that cannot be changed once assigned.
+
+-   Easily created by having comma separated values enclosed in parenthesis
+
+{python} TupleExample = (7,8,9) #create sequence of numbers TupleExample
+
+Lists
+
+Variable length and contents can be modified and are mutable
+
+Created by using \[\] or just the list function
+
+{python}
+
+Functions
+
+Files
