@@ -193,3 +193,9 @@ list(Dict1.items())
 
 
 ```
+
+#### Set
+
+-   A set is an unordered group of elements.
+
+-   Sets are created two ways: 1) with the set function 2) a set literal with {}
