@@ -51,7 +51,7 @@ ListB
 
 ```
 
-#### Adding and Removing 
+#### Adding and Removing
 
 ##### **Append**
 
@@ -99,7 +99,7 @@ ListA
 
 ```
 
-##### Combining/ Concatenating 
+##### Combining/ Concatenating
 
 -   Using the + sign will concatenate a list or tuple
 
@@ -223,7 +223,7 @@ d|e
 
 [https://www.geeksforgeeks.org/python-Commonly used set methods-methods/](https://www.geeksforgeeks.org/python-set-methods/ "Commonly used set methods")
 
-#### Built-In Sequence Functions 
+#### Built-In Sequence Functions
 
 -   useful functions that can and should be used when you get a chance
 
@@ -237,19 +237,31 @@ d|e
       print(f'{index}:{value}')
     ```
 
-#### sorted 
+#### sorted
 
 -   returns a new sorted list from input sequence
 
     ```{python}
 
-
+    sorted("Baylor College of Medicine")
     ```
 
 #### zip
 
-#### reversed 
+-   creates pairs of items from a group of lists, tuples, or sequences
 
-#### List, Set and Dictionary Comprehensions 
+```{python}
 
-#### Nested List Comprehensions 
+item1 = ["goodmorning", "hello", "goodbye"]
+item2= ["goodnight", "world", "friend"]
+
+zipitems = zip(item1,item2)
+
+list(zipitems)
+```
+
+#### reversed
+
+#### List, Set and Dictionary Comprehensions
+
+#### Nested List Comprehensions
