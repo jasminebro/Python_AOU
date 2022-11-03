@@ -273,11 +273,40 @@ list(zipitems)
 
 #### reversed
 
+-   iterates over a sequence of items in reverse order
+
 ```{python}
 
+list(reversed("Baylor College of Medicine"))
 
 ```
 
-#### List, Set and Dictionary Comprehensions
+### List, Set and Dictionary Comprehensions
 
-#### Nested List Comprehensions
+-   List comprehensions are widely used in Python programming
+
+-   Allows you to form a new list by filtering items of another collection, transforming items passing your chosen filter/conditions into one new expression
+
+    -   Their basic form is : \[*expression* for value in collection if *condition*\]
+
+-   An equivalent for loop is as follows:
+
+    result = \[\]
+
+    for value in collection:
+
+    if condition:
+
+    result.append(expression)
+
+-   Let's filter out cities that begin with A and if they begin with A capitalize the entire city name
+
+```{python}
+
+cities =["Adline", "Calhoun", "Rushing", "Alvin"]
+
+[x.upper() for x in cities if x.startswith("A")]
+
+```
+
+### Nested List Comprehensions
