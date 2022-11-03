@@ -260,7 +260,23 @@ zipitems = zip(item1,item2)
 list(zipitems)
 ```
 
+-   A common use of zip is to combine it with enumerate to iterate multiples items
+
+    ```{python}
+
+    item1 = ["goodmorning", "hello", "goodbye"]
+    item2= ["goodnight", "world", "friend"]
+
+    for index, (a,b) in enumerate(zip(item1, item2)):
+        print(f"{index}: {a},{b}")
+    ```
+
 #### reversed
+
+```{python}
+
+
+```
 
 #### List, Set and Dictionary Comprehensions
 
