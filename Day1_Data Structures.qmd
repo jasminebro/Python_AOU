@@ -299,13 +299,18 @@ list(reversed("Baylor College of Medicine"))
 
     result.append(expression)
 
--   Let's filter out cities that begin with A and if they begin with A capitalize the entire city name
+-   Let's filter out cities that begin with A and if they begin with A capitalize the entire city name of a list
+
+-   The same technique can be used with dictionaries and sets.
 
 ```{python}
+
+#list comprehension
 
 cities =["Adline", "Calhoun", "Rushing", "Alvin"]
 
 [x.upper() for x in cities if x.startswith("A")]
+
 
 ```
 
