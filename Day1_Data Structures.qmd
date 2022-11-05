@@ -318,15 +318,35 @@ cities =["Adline", "Calhoun", "Rushing", "Alvin"]
 
 -   Sometimes data or statistics are listed within a list or nested and it is important to know how to extract the information most important to your project.
 
-    ```{python}
+-   List comprehensions uses the for and in keywords to identify what you want to iterate over
 
-    matrix = [[1,2,3],
-              [4,5,6],
-              [7,8,9]]
-              
-    flattened = [x for row in matrix for x in row]
+The statement must be inside of square brackets
 
-    flattened
+```{python}
 
-      
-    ```
+alist= [expression for item in list] 
+```
+
+Expression: the expression used to modify each item
+
+Item: the element in the iterable/ list
+
+List: the iterable object
+
+```{python}
+
+compr_list = [[expression for item in list] for item in list]
+```
+
+```{python}
+
+matrix = [[1,2,3],
+          [4,5,6],
+          [7,8,9]]
+          
+flattened = [x for row in matrix for x in row]
+
+flattened
+
+  
+```
