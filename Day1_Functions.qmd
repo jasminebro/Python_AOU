@@ -1,0 +1,23 @@
+#  Functions 
+
+-   The most important method of code organization in Python (and R)
+
+-   If you plan on repeating the same coding task at least 3 times it is worth writing a reusable function.
+
+-   Functions are declare with the def keyword and contains a block of code with an optional return keyword.
+
+```{python}
+
+#test function
+
+def my_function(x,y):
+  return x + y 
+
+```
+
+-   Our test function above is named my_function, takes two inputs (x and y) and will return x+ y. Let's try our function.
+
+    ```{python}
+
+    my_function(4,5)
+    ```
