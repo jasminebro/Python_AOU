@@ -377,7 +377,7 @@ The statement must be inside of square brackets
 
 ```{python}
 
-alist= [expression for item in list] 
+# alist= [expression for item in list] 
 ```
 
 Expression: the expression used to modify each item
@@ -387,8 +387,8 @@ Item: the element in the iterable/ list
 List: the iterable object
 
 ```{python}
-
-compr_list = [[expression for item in list] for item in list]
+# 
+# compr_list = [[expression for item in list] for item in list]
 ```
 
 ```{python}
