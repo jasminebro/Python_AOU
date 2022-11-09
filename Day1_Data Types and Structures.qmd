@@ -54,7 +54,7 @@ print(.7e9)
 type(.7e9)
 ```
 
-## Booleans 
+## Booleans
 
 -   Boolean variables will have the value of True or False
 
