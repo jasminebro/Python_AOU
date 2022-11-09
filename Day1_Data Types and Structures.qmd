@@ -1,5 +1,5 @@
 ---
-title: "Data Structures"
+title: "Data Types Structures"
 format: ipynb
 editor: visual
 jupyter: python3
@@ -14,6 +14,27 @@ jupyter: python3
 library(reticulate)
 
 ```
+
+## Data Types
+
+## Strings
+
+-   Strings are defined as a sequence of characters. Strings are called str in Python.
+
+-   All characters between a set of " " are a part of a string.
+
+    ```{python}
+
+    print("Welcome to the Baylor College of Medicine AOU Data Science Training")
+
+    print("Are you excited? YES!")
+    ```
+
+## Integers
+
+## Floats
+
+## Booleans 
 
 ## Data Structures
 

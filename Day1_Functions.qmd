@@ -1,4 +1,4 @@
-#  Functions 
+# Functions
 
 -   The most important method of code organization in Python (and R)
 
