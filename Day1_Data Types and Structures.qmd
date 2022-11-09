@@ -427,6 +427,12 @@ all(values)
 any(values)
 len(values)
 
+a=69
+type(a)
+str(a)
+
+
+
 help() #starts the built-in help system
 
 ```
