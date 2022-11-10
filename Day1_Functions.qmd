@@ -21,3 +21,114 @@ def my_function(x,y):
 
     my_function(4,5)
     ```
+
+Now, let's try a function without a return statement. None is returned automatically if Python encounters a function with not return statement at the end.
+
+```{python}
+
+def function_noreturn(x):
+  print(x)
+  
+
+noreturn = function_noreturn("BCM")
+
+print(noreturn)
+
+
+```
+
+-   All functions have positional and keyword arguments.
+
+-   Keyword arguments are used to specify default values and optional arguments.
+
+-   Below we have an example with x, y, and z as an optional argument with a default value of 2
+
+    ```{python}
+
+    def my_functionz(x,y, z=2):
+      if z < 5:
+        return z * (x+y)
+      else:
+        return z * (x-y)
+    ```
+
+```{python}
+
+my_functionz(3,8)
+
+my_functionz(3,8, 9)
+```
+
+-   You can return multiple values from Python functions.
+
+-   The function returns a tuple and the variables are saved to the local environment
+
+    ```{python}
+
+    def f():
+      a = 8
+      b = 3
+      c = 1
+      return a,b,c
+
+    a,b,c = f()
+
+    ```
+
+-   Functions are also objects.
+
+-   Let's try a data cleaning example. Below is an example of how survey title names may have been recorded at different site locations.
+
+    ```{python}
+
+    surveytopics = ["Rural##", "rural?", "city"]
+    ```
+
+    ```{python}
+
+    import re
+
+    def clean_strings(strings):
+        result = []
+        for value in strings:
+            value = value.strip()
+            value = re.sub("[!#?]", "", value)
+            value = value.title()
+            result.append(value)
+        return result
+    ```
+
+```{python}
+
+clean_strings(surveytopics)
+```
+
+## Errors in Python 
+
+### Top 3 Errors​
+
+-   **Syntax Error**: invalid syntax; forgetting parenthesis, forgetting colons, trying to use a word more than once for a variable​
+
+-   **Indentation Error**: expected an indented block; forgetting to indent statements within bodies of if and for​
+
+-   **Indentation Error**: unexpected indent​
+
+<https://inventwithpython.com/blog/2012/07/09/16-common-python-runtime-errors-beginners-find/>
+
+### Common Debugging Strategies 
+
+Debugging- the process of locating and removing errors in your programs​
+
+-   Make sure you are editing the version of the program that you are actually using.​
+
+-   Make sure your save your changes to the program file before executing.​
+
+-   Check line endings and compensation for them. Make sure your program is reading one line at a time.​
+
+-   One way to avoid this problem is to open files with a universal new line by adding the U flag.​
+
+-   InFile= open(InFileName, \'rU\')​
+
+-   Check the contents of your data file.​
+
+​
