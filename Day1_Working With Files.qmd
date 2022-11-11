@@ -61,4 +61,6 @@ data_contents = data.read()
 print(data_contents)
 
 df = pd.read_csv("AOURuralSurvey.csv")
+
+df
 ```
