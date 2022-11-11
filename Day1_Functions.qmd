@@ -1,3 +1,10 @@
+---
+title: "Functions"
+format: ipynb
+editor: visual
+jupyter: python3
+---
+
 # Functions
 
 -   The most important method of code organization in Python (and R)
@@ -103,32 +110,30 @@ my_functionz(3,8, 9)
 clean_strings(surveytopics)
 ```
 
-## Errors in Python 
+## Errors in Python
 
-### Top 3 Errors​
+### Top 3 Errors
 
--   **Syntax Error**: invalid syntax; forgetting parenthesis, forgetting colons, trying to use a word more than once for a variable​
+-   **Syntax Error**: invalid syntax; forgetting parenthesis, forgetting colons, trying to use a word more than once for a variable
 
--   **Indentation Error**: expected an indented block; forgetting to indent statements within bodies of if and for​
+-   **Indentation Error**: expected an indented block; forgetting to indent statements within bodies of if and for
 
--   **Indentation Error**: unexpected indent​
+-   **Indentation Error**: unexpected indent
 
 <https://inventwithpython.com/blog/2012/07/09/16-common-python-runtime-errors-beginners-find/>
 
-### Common Debugging Strategies 
+### Common Debugging Strategies
 
-Debugging- the process of locating and removing errors in your programs​
+Debugging- the process of locating and removing errors in your programs.
 
--   Make sure you are editing the version of the program that you are actually using.​
+-   Make sure you are editing the version of the program that you are actually using.
 
--   Make sure your save your changes to the program file before executing.​
+-   Make sure your save your changes to the program file before executing.
 
--   Check line endings and compensation for them. Make sure your program is reading one line at a time.​
+-   Check line endings and compensation for them. Make sure your program is reading one line at a time.
 
--   One way to avoid this problem is to open files with a universal new line by adding the U flag.​
+-   One way to avoid this problem is to open files with a universal new line by adding the U flag.
 
--   InFile= open(InFileName, \'rU\')​
+-   InFile= open(InFileName, 'rU')
 
--   Check the contents of your data file.​
-
-​
+-   Check the contents of your data file.

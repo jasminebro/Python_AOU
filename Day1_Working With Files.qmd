@@ -1,6 +1,6 @@
 ---
 title: "Working with files"
-format: html
+format: ipynb
 editor: visual
 jupyter: python3
 ---
