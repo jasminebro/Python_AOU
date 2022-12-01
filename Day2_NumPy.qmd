@@ -37,7 +37,7 @@ print(data1 * 20)
 print(data1 + data1)
 ```
 
--   In addition to numpy.array, numpy.zeros and numpy.ones can be used to create arrays of 0s or 1s with a given shape \
+-   In addition to numpy.array, numpy.zeros and numpy.ones can be used to create arrays of 0s or 1s with a given shape\
 
     ```{python}
 
@@ -78,3 +78,19 @@ print(data1 + data1)
 
     print(numeric_string)
     ```
+
+-   Numpy has various universal functions that perform useful element wise operations. Below are a few examples. Extensive documentation of NumPy's universal functions can be found at
+
+    <https://numpy.org/doc/stable/reference/routines.math.html>
+
+```{python}
+
+#log10 example 
+print(np.log10([1e-15, 456]))
+
+#calculate log(exp(x1) + exp(x2))
+#this is useful in statistics where calculated probablities may be too small 
+
+
+
+```
