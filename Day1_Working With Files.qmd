@@ -27,28 +27,6 @@ Why do we care about this?​
 
 -   Etc.​
 
-    ## 
-
-    Arguments for the open function
-
--   The open function is a Python built-in function to open files.
-
-    -   "r" is for reading​
-
-    -   "w" is for writing​
-
-    -   "a" is for appending​
-
-        -   "w" vs."a"​
-
-        -   If you open a file and use the "w" argument you will overwrite the file.​
-
-        -   If you open an existing file and use the "a" argument you will add new data to the end of the file. ​
-
-        -   Always close your files after you are done reading and writing.
-
-        -   Always use the \# when commenting your code. Comments are helpful as "notes to self" about sections of code
-
 ```{python}
 
 import pandas as pd
@@ -64,3 +42,15 @@ df = pd.read_csv("AOURuralSurvey.csv")
 
 df
 ```
+
+-   Now, we have used pandas to open a csv file. Hoo Ray!
+
+-   You can reference all of pandas IO tools to open, read and work with files.
+
+    <https://pandas.pydata.org/docs/user_guide/io.html>
+
+    ```{python}
+
+
+
+    ```
