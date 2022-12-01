@@ -65,3 +65,16 @@ print(data1 + data1)
     print(float_arr.dtype)
 
     ```
+
+-   You can also convert an array of strings that represent numbers to numeric form by using astype
+
+    ```{python}
+
+    numeric_string = np.array(["1.8", "-10", "54.7"], dtype=np.string_)
+
+    print(numeric_string)
+
+    numeric_string.astype(float)
+
+    print(numeric_string)
+    ```
