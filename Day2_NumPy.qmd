@@ -1,0 +1,67 @@
+# NumPy
+
+-   NumPy is short for Numerical Python
+
+-   ndarray, an efficient multidimensional array providing fast array-oriented arithmetic operations
+
+-   Math functions for fast operations to avoid writing loops
+
+-   Linear algebra and random number generation
+
+-   Designed for large arrays of data
+
+    ```{r}
+    library(reticulate)
+    ```
+
+    ```{python}
+
+    #creating a ndarray
+
+    import numpy as np 
+
+    data1 = [6, 7.5, 8, 0, 1]
+
+    arr1 = np.array(data1)
+
+    print(arr1)
+
+    ```
+
+```{python}
+
+#Examples of batch computation 
+print(data1 * 20)
+
+
+print(data1 + data1)
+```
+
+-   In addition to numpy.array, numpy.zeros and numpy.ones can be used to create arrays of 0s or 1s with a given shape \
+
+    ```{python}
+
+    print(np.zeros(5))
+
+    print(np.zeros((5,7)))
+
+    print(np.ones((5,7)))
+    ```
+
+-   Data types- NumPy allows for flexibility in interacting with data and their types.
+
+-   You can convert an array from one data type to another using the astype method
+
+    ```{python}
+
+    arr2 = np.array([1, 2, 3, 4, 5])
+
+    print(arr2.dtype)
+
+    float_arr = arr2.astype(np.float64)
+
+    print(float_arr)
+
+    print(float_arr.dtype)
+
+    ```
